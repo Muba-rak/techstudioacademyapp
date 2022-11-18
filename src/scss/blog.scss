@@ -1,13 +1,25 @@
+.banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blue-btn{
+    width: 160px;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+
+}
+.input_field{
+    width: 320px;
+    height: 40px;
+}
 .first_p{
     color: #4A5568;
 }
-h1{
+.h1-blog{
    color: #1C1D1D;
 }
 
-hr{
-    color: red;
-}
 .first-line{
     width: 80%;
 }
@@ -17,5 +29,12 @@ hr{
     opacity: 0.3;
 }
 .main-blog{
-    border-bottom: 2px solid rgb(210, 206, 206);
+    border-bottom: 2px solid rgb(234, 232, 232);
+}
+
+
+@media (max-width: 320px) {
+    .input_field {
+        width: 300px;
+    }
 }
