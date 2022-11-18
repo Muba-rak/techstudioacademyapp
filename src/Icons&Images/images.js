@@ -67,7 +67,8 @@ import RepeatGrid47 from "./TechStudioImages/Repeat Grid 47.png";
 import cal from "./TechStudioIcons/calendar.png";
 import BlackBusinessman6 from "./TechStudioImages/Black Businessman-6.png";
 import nig from "./TechStudioImages/nigeria.png";
-
+import coffee from './TechStudioImages/Group 3989.png'
+import paper from './TechStudioImages/Mask Group 37.png'
 
 const Images = {
   nig,
@@ -138,7 +139,9 @@ const Images = {
   mongo,
   heroku,
   thread1,
-  thread2
+  thread2,
+  coffee,
+  paper
 };
 
 export default Images;
